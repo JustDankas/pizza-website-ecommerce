@@ -1,0 +1,73 @@
+<!-- <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-4 bg-white">
+        <a class="navbar-brand logo" routerLink="/"
+          ><img
+            src="assets/logo.png"
+            alt="Pizzable Logo"
+            width="150"
+            height="90"
+        /></a>
+      </div>
+      <div class="col-8 bg-primary">
+        <ul class="navbar-nav links-c">
+          <li><a routerLink="/">Catering</a></li>
+          <li><a routerLink="/">Pizzas</a></li>
+          <li><a routerLink="/">Contact</a></li>
+        </ul>
+        <div class="user-links">
+          <a routerLink="/"><i class="bi bi-basket3"></i></a>
+          <a routerLink="/"><i class="bi bi-person-circle"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav> -->
+<nav class="navbar navbar-expand-md">
+  <div class="container-fluid">
+    <a class="navbar-brand logo" routerLink="/"
+      ><img src="assets/logo.png" alt="Pizzable Logo" width="150" height="90"
+    /></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" routerLink="/login"
+          >Catering</a
+        >
+        <a class="nav-link" href="#">Pizzas</a>
+        <a class="nav-link" [routerLink]="['/', 'login']">Contact</a>
+        <a routerLink="/" class="d-md-none"
+          ><i class="bi bi-person-circle"></i
+        ></a>
+      </div>
+    </div>
+    <a routerLink="/"><i class="bi bi-basket3"></i></a>
+    <a routerLink="/profile" class="d-none d-lg-block"
+      ><i class="bi bi-person-circle"></i
+    ></a>
+  </div>
+</nav>
+<!-- <div class="nav-links-c">
+  <div>
+    <ul class="navbar-nav links-c">
+      <li><a routerLink="/">Catering</a></li>
+      <li><a routerLink="/">Pizzas</a></li>
+      <li><a routerLink="/">Contact</a></li>
+    </ul>
+    <div class="user-links">
+      <a routerLink="/"><i class="bi bi-basket3"></i></a>
+      <a routerLink="/"><i class="bi bi-person-circle"></i></a>
+    </div>
+  </div>
+</div> -->

@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poiret+One&display=swap");
+
+html,
+body {
+  overflow-x: hidden;
+}
+body * {
+  font-family: "Montserrat", sans-serif;
+}
+:root {
+  --font-sm: small;
+  --font-md: normal;
+  --font-lg: large;
+  --font-xl: x-large;
+  --font-xxl: xx-large;
+  --primary: #ff3900;
+  --primary-dark: #cc4c29;
+  --secondary: #ffd700;
+  --secondary: #00b454;
+}
+
+main {
+  min-height: 100vh;
+}
+body {
+  background-image: url("assets/pizza_bg_lg.png");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  /* background-size: cover; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poiret One", "Montserrat", sans-serif;
+}

@@ -1,0 +1,51 @@
+<main>
+  <div class="container form-c">
+    <form class="mx-auto">
+      <p class="h4">
+        Απόκτησε <mark>10% έκπτωση</mark> στην πρώτη σου παραγγελεία κάνωντας
+        εγγραφή!
+      </p>
+      <div class="mb-3">
+        <label for="NameInput" class="form-label">Όν/Επώνυμο</label>
+        <input
+          type="text"
+          class="form-control"
+          id="NameInput"
+          aria-describedby="nameHelp"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label"
+          >Διεύθυνση Email</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+        <div id="emailHelp" class="form-text">
+          Δεν θα κοινοποιήσουμε ποτέ το email σου σε κανέναν
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+        />
+      </div>
+      <!-- <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1"
+          >Να με θυμάσαι</label
+        >
+      </div> -->
+      <button type="submit" class="btn btn-primary w-100 submit-btn">
+        Δημιουργία
+      </button>
+      <a routerLink="/login">Είσαι ήδη εγγεγραμένος? Συνδέσου εδώ!</a>
+    </form>
+  </div>
+</main>
